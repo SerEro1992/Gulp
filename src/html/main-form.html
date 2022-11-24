@@ -1,0 +1,206 @@
+<main class="main-form">
+  <div class="container">
+    <header class="reviews__description">
+      <h1 class="reviews__title">Оставьте свой отзыв</h1>
+      <p class="reviws__text">
+        Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
+        посещенных вами достопримечательностях
+      </p>
+    </header>
+    <form
+      class="reviews__form"
+      action="https://echo.htmlacademy.ru/"
+      method="post"
+    >
+      <fieldset class="reviews__group">
+        <legend class="reviews__title">Представьтесь:</legend>
+
+        <p class="contact__text field-group">
+          <span class="form-label">
+            <label for="contact-name">имя*:</label>
+          </span>
+
+          <input
+            required
+            type="text"
+            class="field"
+            name="contact-name"
+            id="contact-name"
+            placeholder="Иван"
+          />
+        </p>
+
+        <p class="contact__text field-group">
+          <span class="form-label">
+            <label for="contact-surname">фамилия*:</label>
+          </span>
+          <input
+            required
+            type="text"
+            class="field"
+            name="contact-surname"
+            id="contact-surname"
+            placeholder="Иванов"
+          />
+        </p>
+
+        <p class="contact__text field-group">
+          <span class="form-label">
+            <label for="contact-patronymic">отчество:</label>
+          </span>
+          <input
+            type="text"
+            class="field"
+            name="contact-patronymic"
+            id="contact-patronymic"
+            placeholder="Иванович"
+          />
+        </p>
+      </fieldset>
+
+      <fieldset class="reviews__group">
+        <legend class="reviews__title">Контактная информация:</legend>
+        <p class="contact__text field-group">
+          <span class="form-label">
+            <label for="contact-phone">Контактный телефон*:</label>
+          </span>
+
+          <input
+            required
+            type="tel"
+            class="field"
+            name="contact-phone"
+            id="contact-phone"
+            placeholder="Введите телефон"
+          />
+        </p>
+        <p class="contact__text field-group">
+          <span class="form-label">
+            <label for="contact-email">Электронная почта*:</label>
+          </span>
+
+          <input
+            required
+            type="email"
+            class="field"
+            name="contact-email"
+            id="contact-email"
+            placeholder="Введите e-mail"
+          />
+        </p>
+      </fieldset>
+
+      <fieldset class="reviews__group">
+        <legend class="reviews__title">Ваше общее впечатление:</legend>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                checked
+                class="control__input visually-hidden"
+                type="radio"
+                name="impression"
+                value="positive"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Скорее положительное</span>
+            </label>
+          </li>
+
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                class="control__input visually-hidden"
+                type="radio"
+                name="impression"
+                value="negative"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Скорее отрицательное</span>
+            </label>
+          </li>
+
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                class="control__input visually-hidden"
+                type="radio"
+                name="impression"
+                value="difficult to answer"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Затрудняюсь ответить</span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="reviews__group">
+        <legend class="reviews__title">
+          посещенные достопримечательности:
+        </legend>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                checked
+                class="control__input visually-hidden"
+                type="checkbox"
+                name="attraction - devil's bridge"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Мост Дьявола</span>
+            </label>
+          </li>
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                checked
+                class="control__input visually-hidden"
+                type="checkbox"
+                name="attraction - Bell Mountain"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Гора-Колокол</span>
+            </label>
+          </li>
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                checked
+                class="control__input visually-hidden"
+                type="checkbox"
+                name="attraction - Slide Park"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Слайд-парк</span>
+            </label>
+          </li>
+          <li class="reviews__item">
+            <label class="control">
+              <input
+                class="control__input visually-hidden"
+                type="checkbox"
+                name="attraction - Red Rocks"
+              />
+              <span class="control__mark"></span>
+              <span class="control__label">Красные скалы</span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="reviews__group">
+        <legend class="reviews__title">Опишите свои эмоции:</legend>
+        <textarea
+          rows="5"
+          cols="30"
+          name="review"
+          placeholder="Опишите подробно все свои восторги"
+        ></textarea>
+      </fieldset>
+      <button class="button" type="submit">Отправить отзыв</button>
+      <p class="reviews__help">*-обязательные поля</p>
+    </form>
+  </div>
+</main>

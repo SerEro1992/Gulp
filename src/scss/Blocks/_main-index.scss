@@ -1,0 +1,293 @@
+
+.main-page {
+}
+.container {
+}
+.main {
+  &__promo{
+
+    min-height: 390px;
+    background-color: #83b3d3;
+    background-image:
+      url("../../img/index/text-index.svg"),
+      url("../../img/index/intro-triangle.svg"),
+      url("../../img/index/background-desktop.jpg");
+      background-position:
+      50% calc(0% + 110px),
+      50% 100%,
+      50% 50%;
+      background-size:
+      282px 214px,
+      100% 40px,
+      cover;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.advantages {
+
+		&__content {
+		}
+
+		&__title {
+		}
+
+		&__text {
+		}
+
+		&__list {
+		}
+
+		&__item {
+		}
+
+		&__item-large {
+		}
+
+		&__discription {
+		}
+
+		&__info {
+		}
+}
+.item {
+
+		&__title {
+		}
+
+		&__text {
+		}
+
+		&__img {
+		}
+}
+.info {
+
+		&__item {
+		}
+
+		&__item-house {
+		}
+
+		&__title {
+		}
+
+		&__text {
+		}
+
+		&__item-food {
+		}
+
+		&__item-present {
+		}
+}
+.seach {
+
+		&__title {
+		}
+
+		&__text {
+		}
+
+		&__button {
+		}
+}
+.button {
+}
+.map {
+}
+.map-container {
+}
+
+@media ($tablet){
+  .main-page {
+  }
+  .container {
+  }
+  .main {
+        &__promo{
+          min-height: 518px;
+          background-image:
+          url("../../img/index/text-index.svg"),
+          url("../../img/index/intro-triangle-tablet.svg"),
+          url("../../img/index/background-desktop.jpg");
+          background-position:
+            50% 50%,
+            50% 100%,
+            50% 50%;
+            background-size:
+            460px 350px,
+            100% 57px,
+            cover;
+          background-repeat: no-repeat;
+        }
+      }
+
+  .visually-hidden {
+  }
+  .advantages {
+
+      &__content {
+      }
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__list {
+      }
+
+      &__item {
+      }
+
+      &__item-large {
+      }
+
+      &__discription {
+      }
+
+      &__info {
+      }
+  }
+  .item {
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__img {
+      }
+  }
+  .info {
+
+      &__item {
+      }
+
+      &__item-house {
+      }
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__item-food {
+      }
+
+      &__item-present {
+      }
+  }
+  .seach {
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__button {
+      }
+  }
+  .button {
+  }
+  .map {
+  }
+  .map-container {
+  }
+
+}
+
+@media ($desktop){
+  .main-page {
+  }
+  .container {
+  }
+  .main {
+
+      &__promo {
+      }
+  }
+  .visually-hidden {
+  }
+  .advantages {
+
+      &__content {
+      }
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__list {
+      }
+
+      &__item {
+      }
+
+      &__item-large {
+      }
+
+      &__discription {
+      }
+
+      &__info {
+      }
+  }
+  .item {
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__img {
+      }
+  }
+  .info {
+
+      &__item {
+      }
+
+      &__item-house {
+      }
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__item-food {
+      }
+
+      &__item-present {
+      }
+  }
+  .seach {
+
+      &__title {
+      }
+
+      &__text {
+      }
+
+      &__button {
+      }
+  }
+  .button {
+  }
+  .map {
+  }
+  .map-container {
+  }
+
+}
